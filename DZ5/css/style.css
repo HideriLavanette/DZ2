@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Jost, sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid rgb(99, 193, 255);
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+#create_todo {
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(99, 193, 255);
+    cursor: pointer;
+    background: rgb(99, 193, 255);
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: 2px solid rgb(99, 193, 255);
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    hyphens:auto
+
+}
+
+.text {
+    font-size: 22px;
+
+}
+
+.button_del {
+    padding: 0px 20px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(112, 0, 0);
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.button_edit {
+    padding: 0px 20px;
+    height: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    background: rgb(68, 74, 95);
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.buttons_div {
+    display: flex;
+    gap: 10px;
+    justify-content:flex-end;
+    align-items: center;
+    width: 320px;
+}
