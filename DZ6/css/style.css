@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    color: #1c1b20;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f8ff;
+}
+
+
+.userInput {
+    width: 900px;
+    margin: 20px auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input {
+    width: 900px;
+    height: 40px;
+    padding: 10px;
+    font: 20px Jost;
+    overflow-wrap: break-word;
+    outline:none;
+    border: 2px solid #fff;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px 0 rgba(12, 0, 63, 0.15);
+    border-radius: 10px;
+    color: #1c1b20;
+}
+
+.list {
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font: 24px Jost;
+    font-weight: 400;
+    border: 2px solid #fff;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px 0 rgba(12, 0, 63, 0.15);
+    border-radius: 10px;
+    color: #1c1b20;
+}
+
+
+.blockText {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+    box-shadow: 0px 0px 10px 0 rgba(12, 0, 63, 0.15);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.listText {
+    color: #1c1b20;
+}
+
+.textP {
+    width: 750px;
+    margin: 0px;
+    overflow-wrap:break-word;
+}
+
+.delBtn {
+    width: 100px;
+    height: 40px;
+    padding: 0px 10px;
+    font: 20px Jost;
+    font-weight: 400;
+    outline:none;
+    border: 2px solid rgb(113, 158, 255);
+    background-color: rgb(113, 158, 255);
+    box-shadow: 3px 3px 10px 0 rgba(12, 0, 63, 0.15);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
